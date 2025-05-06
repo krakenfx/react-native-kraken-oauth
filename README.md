@@ -11,13 +11,13 @@ Tested with React Native 0.77.1. It may work on other versions, but it's not gua
 ### Install the `react-native-kraken-oauth` package from GitHub:
 
 ```sh
-yarn add git@github.com:krakenfx/react-native-kraken-oauth.git
+yarn add react-native-kraken-oauth@github:krakenfx/react-native-kraken-oauth
 ```
 
 ### Install the oauth-mobile dependencies:
 
 ```sh
-  yarn add expo-auth-session expo-crypto expo-web-browser
+yarn add expo-auth-session expo-crypto expo-web-browser
 ```
 
 ### Use Kraken's fork of `expo-web-browser`
@@ -25,13 +25,13 @@ yarn add git@github.com:krakenfx/react-native-kraken-oauth.git
 You will need to update `expo-web-browser` to use the [Kraken expo-web-browser-universal-link-support fork](https://github.com/krakenfx/expo-web-browser-universal-link-support) to support universal links on iOS:
 
 ```json
-  "expo-web-browser": "https://github.com/krakenfx/expo-web-browser-universal-link-support.git",
+"expo-web-browser": "https://github.com/krakenfx/expo-web-browser-universal-link-support.git",
 ```
 
 ### Install pods on iOS
 
 ```sh
-  cd ios && bundle exec pod install
+cd ios && bundle exec pod install
 ```
 
 ### Setup new OAuth client
